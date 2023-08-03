@@ -28,9 +28,9 @@ const toggleSwitch = document.querySelector(
 
 function switchTheme(e) {
   if (e.target.checked) {
-    document.documentElement.setAttribute("data-theme", "dark");
-  } else {
     document.documentElement.setAttribute("data-theme", "light");
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
   }
 }
 
